@@ -4,7 +4,11 @@ def add(x,y):
 
 #subtract
 def subtract(x,y):
-    return x-y
+    if y>x:
+       return negative_value_error
+    else
+       return x-y
+
 
 #multiply
 def multiply(x,y):
